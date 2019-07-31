@@ -1,18 +1,39 @@
-<!doctype html>
-<html lang="fr">
-<head>
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+  <head>
     <meta charset="utf-8">
-    <title>Titre de la page</title>
+    <title>Bonjour !</title>
+    <meta name="author" lang="fr" content="Solange Harmonie PICARD">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="stopwatch.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="container min-vh-100 d-flex flex-column align-content-center">
+     <div class="row flex-grow-1 d-flex justify-content-center align-items-center">
+       <div class="col-12 col-md-4">
+         <div class="card center-block">
+           <div class="card-header">
+             <h3 class="text-center text-primary font-weight-bold">Bonjour !</h3>
+           </div>
+           <div class="card-body">
+              <p class="card-text text-justify">
+                Écrivez votre prénom :
+              </p>
+             <div class="form-group">
+              <form>
+                <input class="form-control mb-2" type="text" id="name">
+              </form>
+                <p class="mt-3">Bonjour <span class="text-success"></span> !</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
-</head>
-<body>
-  <p>Écrivez votre prénom : </p>
-  <p>
-    <input type="text" id="nom">
-  </p>
-  <p>
-Bonjour <span></span> !
-  </p>
-</body>
+  </body>
 </html>

@@ -1,9 +1,6 @@
 $(document).ready(function(){
-    
-    $("#nom").keyup(function(){
-        
-        var add = $("#nom").val();
-        $("span").html(add);
-            
-    });
+  $("#name").keyup(function(){
+    var add = $("#name").val();
+    $("span").html(add);
+  });
 });
